@@ -19,7 +19,7 @@ public class ArrowGenerator : MonoBehaviour
         // span 秒以上経ったかをチェック
         if (this.delta > this.span)
         {
-            // 経過時間をリセット、次の生成までのカウントを開始
+            // 経過時間をリセット、次の生成までのカウントを開始する
             this.delta = 0;
 
             // 矢のプレハブを複製、新しい矢を生成
